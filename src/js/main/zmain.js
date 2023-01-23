@@ -54,20 +54,12 @@
     $('.search-field').simpleJekyllSearch();
   });
 
-  function close_search() {
-    $('.search-wrapper').toggleClass('active');
-    bs.searchform.toggleClass('active');
-    bs.canvas.removeClass('search-overlay');
+  function clear_search() {
+    $('.search-field').val('');
   }
 
-  bs.close.on('click', close_search);
+  bs.close.on('click', clear_search);
 
-  // Closing menu with ESC
-  document.addEventListener('keyup', function(e){
-      if(e.keyCode == 27 && $('.search-overlay').length) {
-          close_search();
-      }
-  });
   
   if (document.getElementsByClassName('home').length >=1 ) {
       new AnimOnScroll( document.getElementById( 'grid' ), {
