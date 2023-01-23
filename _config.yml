@@ -48,7 +48,7 @@ sent_message_url: "/contact/message-sent/"
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-use_logo: false
+use_logo: true
 
 # SASS
 sass:

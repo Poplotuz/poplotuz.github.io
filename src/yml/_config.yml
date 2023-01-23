@@ -15,7 +15,7 @@
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-use_logo: false
+use_logo: true
 
 # SASS
 sass:
