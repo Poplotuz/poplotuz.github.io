@@ -17,12 +17,16 @@
                 {% assign hollidays = "Christmas,Thanksgiving,Halloween,St. Valentine's Day,New Year" | split: "," %}
 
                 {% for holliday in hollidays %}
-                    <h2>
-                        {{holliday}} episode list:
-                    </h2>
+                    {% assign holiday_displayed = false %}
                     {% for episode in site.data.episodes %}
                         {% assign series = episode.Series | strip %} 
                         {% if series == page.title and episode.Holiday == holliday %}
+                            {% if holiday_displayed  == false %}
+                                <h2>
+                                    {{holliday}} episode list:
+                                </h2>
+                                {% assign holiday_displayed = true %}
+                            {% endif %}
                         <p> 
                             <b>Season {{ episode.Season}}, Episode {{ episode.Episode}}</b>
                             <span style="color:gray"> {{ episode.Date }} </span> 

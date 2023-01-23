@@ -170,7 +170,7 @@ function images() {
 }
 
 
-function childProcessTask() {
+function generateTask() {
   return child_process.exec('python3 generate.py');
 }
 
@@ -184,7 +184,7 @@ function watch() {
   gulp.watch(['src/yml/*.yml', '!src/yml/theme.yml'], gulp.series(config, jekyll, reload));
 
   // Watch data files for changes & recompile
-  gulp.watch(['_data/*.tsv', 'generate.py'], gulp.series(config, jekyll, reload));
+  gulp.watch(['_data/*.tsv', 'generate.py'], gulp.series(generateTask, jekyll, reload));
 
   // Watch theme file for changes, rebuild styles & recompile
   gulp.watch(['src/yml/theme.yml'], gulp.series(theme, config, jekyll, reload));
@@ -215,7 +215,7 @@ function watch() {
  * - Compile the Jekyll site
  * - Launch BrowserSync & watch files
  */
-const run = gulp.series(gulp.parallel(js, theme, images, childProcessTask), config, jekyll, gulp.parallel(server, watch));
+const run = gulp.series(gulp.parallel(js, theme, images, generateTask), config, jekyll, gulp.parallel(server, watch));
 
 /**
  * Build Task
@@ -226,6 +226,6 @@ const run = gulp.series(gulp.parallel(js, theme, images, childProcessTask), conf
  * - Build the config file
  * - Compile the Jekyll site
  */
-const build = gulp.series(gulp.parallel(js, theme, images), config, jekyll);
+const build = gulp.series(gulp.parallel(js, theme, images, generateTask), config, jekyll);
 
 export { run as default, build };

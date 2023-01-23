@@ -1,6 +1,6 @@
-name: Special
-title: Special Holiday Episodes
-description: Special holiday episods of you favorite TV shows 
+name: Holiday Specials 
+title: Holiday Specials
+description: Holiday-themed episodes of your favorite TV shows
 tags:
   - special
   - holiday
@@ -12,7 +12,7 @@ menu:
     url: /
   - title: Contact
     url: /contact
-email: youremail@test.com
+email: mariesolo@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
