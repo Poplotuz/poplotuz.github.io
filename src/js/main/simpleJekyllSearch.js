@@ -1,7 +1,11 @@
 (function($) {
     $.fn.simpleJekyllSearch = function(options) {
-        console.log("simpleJekyllSearch")
-
+        function clear_search() {
+            clearSearchResults();
+            $('.search-field').val('');
+        }
+    
+        $(".icon-remove-sign").on('click', clear_search);
         var settings = $.extend({
             jsonFile        : '/search.json',
             jsonFormat      : 'title,tags,categories,url,date',

@@ -53,13 +53,6 @@
   $('.search-field').on('input', function() {
     $('.search-field').simpleJekyllSearch();
   });
-
-  function clear_search() {
-    $('.search-field').val('');
-  }
-
-  bs.close.on('click', clear_search);
-
   
   if (document.getElementsByClassName('home').length >=1 ) {
       new AnimOnScroll( document.getElementById( 'grid' ), {
