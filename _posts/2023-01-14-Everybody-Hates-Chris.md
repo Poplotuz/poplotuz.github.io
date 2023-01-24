@@ -3,7 +3,7 @@ layout: post
 title: Everybody Hates Chris
 seasons: 4
 years: 2005–2009
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Everybody_Hates_Chris.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Everybody_Hates_Chris.png
 tags:
 - thanks-giving
 - hallowin

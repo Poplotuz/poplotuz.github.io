@@ -3,7 +3,7 @@ layout: post
 title: 2 Broke Girls
 seasons: 6
 years: 2011–2017
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/2_Broke_Girls.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/2_Broke_Girls.png
 tags:
 - thanks-giving
 - hallowin

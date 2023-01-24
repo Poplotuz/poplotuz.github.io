@@ -3,7 +3,7 @@ layout: post
 title: The Jeffersons
 seasons: 11
 years: 1975–1985
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/The_Jeffersons.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/The_Jeffersons.png
 tags:
 - thanks-giving
 - hallowin

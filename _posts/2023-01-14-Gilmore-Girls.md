@@ -3,7 +3,7 @@ layout: post
 title: Gilmore Girls
 seasons: 7
 years: 2000–2007
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Gilmore_Girls.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Gilmore_Girls.png
 tags:
 - thanks-giving
 - hallowin

@@ -3,7 +3,7 @@ layout: post
 title: Gimme a Break!
 seasons: 6
 years: 1981–1987
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Gimme_a_Break.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Gimme_a_Break.png
 tags:
 - thanks-giving
 - hallowin

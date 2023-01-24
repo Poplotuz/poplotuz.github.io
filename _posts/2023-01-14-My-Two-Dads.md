@@ -3,7 +3,7 @@ layout: post
 title: My Two Dads
 seasons: 3
 years: 1987–1990
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/My_Two_Dads.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/My_Two_Dads.png
 tags:
 - thanks-giving
 - hallowin

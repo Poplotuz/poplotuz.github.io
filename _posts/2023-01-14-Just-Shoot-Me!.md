@@ -3,7 +3,7 @@ layout: post
 title: Just Shoot Me!
 seasons: 7
 years: 1997–2003
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Just_Shoot_Me.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Just_Shoot_Me.png
 tags:
 - thanks-giving
 - hallowin

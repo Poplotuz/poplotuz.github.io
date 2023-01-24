@@ -3,7 +3,7 @@ layout: post
 title: Married with Children
 seasons: 11
 years: 1987–1997
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Married_with_Children.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Married_with_Children.png
 tags:
 - thanks-giving
 - hallowin

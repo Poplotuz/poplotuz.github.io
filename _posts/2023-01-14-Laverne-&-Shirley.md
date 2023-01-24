@@ -3,7 +3,7 @@ layout: post
 title: Laverne & Shirley
 seasons: 8
 years: 1976–1983
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Laverne_Shirley.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Laverne_Shirley.png
 tags:
 - thanks-giving
 - hallowin

@@ -3,7 +3,7 @@ layout: post
 title: Melrose Place
 seasons: 7
 years: 1992–1999
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Melrose_Place.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Melrose_Place.png
 tags:
 - thanks-giving
 - hallowin

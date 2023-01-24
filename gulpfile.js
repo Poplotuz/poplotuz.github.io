@@ -171,6 +171,7 @@ function images() {
 
 
 function generateTask() {
+  notify('Generate post files...');
   return child_process.exec('python3 generate.py');
 }
 

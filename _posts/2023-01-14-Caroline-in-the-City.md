@@ -3,7 +3,7 @@ layout: post
 title: Caroline in the City
 seasons: 4
 years: 1995–1999
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Caroline_in_the_City.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Caroline_in_the_City.png
 tags:
 - thanks-giving
 - hallowin

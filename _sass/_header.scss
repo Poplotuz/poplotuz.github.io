@@ -32,12 +32,13 @@ body {
     }
 
     img {
-      width: rem(30px);
-      height: rem(30px);
+      width: rem(25px);
+      height: rem(25px);
       transition: all .4s;
   
       @include media(">=sm") {
         width: rem(30px);
+        height: rem(30px);
       }
     }
   }

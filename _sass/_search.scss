@@ -11,10 +11,15 @@
 .search-form {
   position: relative;
   top: 60%;
-  left: 40%;
+  left: 30%;
   width: 40%;
-  transform: translateX(-200px);
   z-index: 20;
+ 
+  @include media("<sm") {
+    top: 130%;
+    left: 10%;
+    width: 80%;
+  }
 
   .search-field {
     width: 100%;
@@ -48,24 +53,12 @@
     background-color: black;
 
     @include media("<sm") {
-      height: 380px;
       overflow: scroll;
     }
 
     .active & {
       display: block;
     }
-
-    .entry-date {
-      float: right;
-      display: none;
-      font-size: rem(14px);
-
-      @include media(">=sm") {
-        display: inline;
-      }
-    }
-
 
     a {
       color: $accentDark;

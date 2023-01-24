@@ -30,8 +30,10 @@
 }
 
 .post-content {
-  .episode {
-    padding: rem(5px) 0;
+  .episode.br {
+    @include media(">=sm") {
+      display: none;
+    }
   }
 
   padding: rem(40px) 0;
@@ -71,7 +73,7 @@
   iframe {
     @include center(rem(800px));
     @include mainFont(400);
-    font-size: rem(17px);
+    font-size: rem(12px);
     line-height: rem(30px);
     letter-spacing: 0.025rem;
     padding: 0 rem(20px);
@@ -92,7 +94,7 @@
 
   p.post-subtitle {
     color: darken($lightGray, 30%);
-    font-size: rem(20px);
+    font-size: rem(14px);
     margin: rem(10px) auto;
     line-height: 1.6;
 
@@ -140,9 +142,8 @@
   p,
   li {
     color: $texts;
-
     code {
-      font-size: rem(15px);
+      font-size: rem(12px);
       background: #282a36;
       color: #fff;
       word-wrap: break-word;
@@ -198,7 +199,7 @@
     }
   }
   h1 {
-    font-size: rem(36px);
+    font-size: rem(32px);
     line-height: 1.4;
     @include media(">=sm") {
       font-size: rem(48px);
@@ -206,7 +207,7 @@
   }
 
   h2 {
-    font-size: rem(26px);
+    font-size: rem(20px);
     line-height: 1;
 
     @include media(">=sm") {
@@ -215,7 +216,7 @@
   }
 
   h3 {
-    font-size: rem(22px);
+    font-size: rem(18px);
     line-height: 1.4;
 
     @include media(">=sm") {
@@ -249,7 +250,7 @@
     }
 
     p {
-      font-size: rem(17px);
+      font-size: rem(12px);
       color: rgba(0, 0, 0, 0.6);
       margin: 0;
       @include media(">=sm") {

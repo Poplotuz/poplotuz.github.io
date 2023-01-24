@@ -3,7 +3,7 @@ layout: post
 title: Downton Abbey
 seasons: 6
 years: 2010–2015
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Downton_Abbey.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Downton_Abbey.png
 tags:
 - thanks-giving
 - hallowin

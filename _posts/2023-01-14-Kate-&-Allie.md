@@ -3,7 +3,7 @@ layout: post
 title: Kate & Allie
 seasons: 6
 years: 1984–1989
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Kate_Allie.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Kate_Allie.png
 tags:
 - thanks-giving
 - hallowin

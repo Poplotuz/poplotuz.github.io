@@ -3,7 +3,7 @@ layout: post
 title: The Golden Girls
 seasons: 7
 years: 1985–1992
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/The_Golden_Girls.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/The_Golden_Girls.png
 tags:
 - thanks-giving
 - hallowin

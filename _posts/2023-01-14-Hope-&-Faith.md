@@ -3,7 +3,7 @@ layout: post
 title: Hope & Faith
 seasons: 3
 years: 2003–2006
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Hope_Faith.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Hope_Faith.png
 tags:
 - thanks-giving
 - hallowin

@@ -3,7 +3,7 @@ layout: post
 title: Two and a Half Men
 seasons: 12
 years: 2003–2015
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Two_and_a_Half_Men.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Two_and_a_Half_Men.png
 tags:
 - thanks-giving
 - hallowin

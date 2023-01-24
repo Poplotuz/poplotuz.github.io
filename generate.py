@@ -4,9 +4,8 @@ import csv
 def generateFile(title, seasons, years,imdb_url):
   undercaseTitle = re.sub("[^a-zA-Z0-9.-]+","_", title.strip())
   undercaseTitle = re.sub("[._]$","", undercaseTitle)
-  cloudinaryImage = f"https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/{undercaseTitle}.png"
+  cloudinaryImage = f"https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/{undercaseTitle}.png"
   imdb_code = imdb_url.split('/')[4]
-# https://www.imdb.com/title/tt0088526/?ref_=nv_sr_srsg_0
   text = f"""---
 layout: post
 title: {title.strip()}

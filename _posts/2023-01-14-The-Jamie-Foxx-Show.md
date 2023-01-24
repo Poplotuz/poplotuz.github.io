@@ -3,7 +3,7 @@ layout: post
 title: The Jamie Foxx Show
 seasons: 5
 years: 1996–2001
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/The_Jamie_Foxx_Show.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/The_Jamie_Foxx_Show.png
 tags:
 - thanks-giving
 - hallowin

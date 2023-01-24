@@ -3,7 +3,7 @@ layout: post
 title: Evening Shade
 seasons: 4
 years: 1990–1994
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Evening_Shade.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Evening_Shade.png
 tags:
 - thanks-giving
 - hallowin

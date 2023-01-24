@@ -3,7 +3,7 @@ layout: post
 title: Last Man Standing
 seasons: 9
 years: 2011–2021
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Last_Man_Standing.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Last_Man_Standing.png
 tags:
 - thanks-giving
 - hallowin

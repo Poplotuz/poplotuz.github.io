@@ -3,7 +3,7 @@ layout: post
 title: Brooklyn Nine-Nine
 seasons: 8
 years: 2013–2021
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Brooklyn_Nine-Nine.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Brooklyn_Nine-Nine.png
 tags:
 - thanks-giving
 - hallowin

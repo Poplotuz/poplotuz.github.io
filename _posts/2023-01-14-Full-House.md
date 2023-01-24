@@ -3,7 +3,7 @@ layout: post
 title: Full House
 seasons: 8
 years: 1987–1995
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Full_House.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Full_House.png
 tags:
 - thanks-giving
 - hallowin

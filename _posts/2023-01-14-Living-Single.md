@@ -3,7 +3,7 @@ layout: post
 title: Living Single
 seasons: 5
 years: 1993–1998
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Living_Single.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Living_Single.png
 tags:
 - thanks-giving
 - hallowin

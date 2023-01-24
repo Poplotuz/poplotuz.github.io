@@ -3,7 +3,7 @@ layout: post
 title: Everybody Loves Raymond
 seasons: 9
 years: 1996–2005
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Everybody_Loves_Raymond.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Everybody_Loves_Raymond.png
 tags:
 - thanks-giving
 - hallowin

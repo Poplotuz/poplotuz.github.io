@@ -3,7 +3,7 @@ layout: post
 title: Home Improvement
 seasons: 8
 years: 1991–1999
-image: https://res.cloudinary.com/special-e/c_scale,w_275,q_auto/f_auto/Series%20posters/Home_Improvement.png
+image: https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/Home_Improvement.png
 tags:
 - thanks-giving
 - hallowin
