@@ -20,6 +20,7 @@ disqus_username: disqus_username
 # See: https://formspree.io/
 formspree_form_id: formspree_form_id
 image: https://res.cloudinary.com/special-e/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/Site%20assets/hero_2.png
+google_analytics: G-5FTBXR7E6J
 
 
 # Social Media Settings
@@ -38,8 +39,8 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+url: "https://tvspecials.net/" # the base hostname & protocol for your site
+google_analytics: "G-5FTBXR7E6J"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
