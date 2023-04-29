@@ -12,31 +12,6 @@
     }
 }
 
-.episode-card {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 25%;
-    max-width: 25%;
-    padding: 0.5em;
-    box-sizing: border-box;
-    p {
-        font-weight: 400;
-        margin-bottom: 0;
-    }
-
-    h4 {
-        overflow-wrap: break-word; /* Break long words if they don't fit */
-        word-wrap: break-word; /* For older browsers */
-        white-space: normal; /* Allow text to wrap to the next line */
-    }
-
-    img {
-        // width: rem(260px);
-        width: 100%;
-        height: auto;
-        margin-bottom: rem(10px);
-    }
-}
 .episodes-list {
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +27,7 @@
         font-weight: 600;
         margin-bottom: rem(40px);
         margin-top: rem(30px);
+        line-height: 1.6;
     }
     .tag-container {
         border-radius: 10px;
@@ -66,6 +42,10 @@
         font-size: 14px;
         margin: 2px;
         padding: 5px 10px;
+
+        a {
+          color: #000;
+        }
     }
 
     .two-columns {
@@ -124,7 +104,7 @@
         padding-left: 0;
         @include media(">=sm") {
             font-size: rem(20px);
-            line-height: rem(2px);
+            line-height: rem(20px);
         }
     }
 
@@ -151,7 +131,9 @@
         line-height: 1.2;
         padding-top: 0;
         padding: 0;
+        margin-top: rem(10px);
         margin-left: 0;
+        margin-bottom: 0;
     }
 
     p.post-main-subtitle {
@@ -160,7 +142,8 @@
         font-weight: 500;
         padding: 0;
         margin-left: 0;
-
+        margin-bottom: 0;
+        margin-top: 0;
         @include media(">=sm") {
             font-size: rem(32px);
         }
@@ -287,7 +270,7 @@
             font-size: rem(27px);
         }
     }
-    
+
     h4 {
         line-height: 1.4;
     }
@@ -403,6 +386,43 @@
         &:hover .anchor,
         .anchor:hover {
             opacity: 1;
+        }
+    }
+
+    .episode-card {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding: 0.5em;
+        box-sizing: border-box;
+
+        p {
+            margin: rem(2px) 0;
+            font-weight: 400;
+            font-size: rem(16px);
+            margin-bottom: 0;
+            @include media(">=sm") {
+                font-size: rem(16px);
+                line-height: rem(20px);
+            }
+        }
+        p.card-name {
+            padding: 0;
+            font-weight: 600;
+            font-size: rem(20px);
+            margin-bottom: rem(7px);
+            margin-top: rem(7px);
+            overflow-wrap: break-word; /* Break long words if they don't fit */
+            word-wrap: break-word; /* For older browsers */
+            white-space: normal; /* Allow text to wrap to the next line */
+        }
+
+        img {
+            // width: rem(260px);
+            width: 100%;
+            height: auto;
+            margin-bottom: rem(10px);
         }
     }
 }

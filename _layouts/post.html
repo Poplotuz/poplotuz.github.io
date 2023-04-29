@@ -17,7 +17,10 @@
                     <p class="post-subtitle">{{ page.seasons }} seasons, {{page.years}}</p>
                     <div class="tag-container">
                         {% for tag in page.tags %}
-                        <span class="tag">{{ tag }}</span>
+
+                        <span class="tag">
+                              <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        </span>
                         {% endfor %}
                     </div>
                     {% if page.streamings %}
@@ -58,11 +61,13 @@
                            {% assign series = episode.Series | strip %}
                             {% if episode.Holiday == holiday and series == page.title %}
                                 <div class="episode-card">
-                                    <img
-                                        src="https://res.cloudinary.com/special-e/image/upload/v1682493363/Supernatural/A%20Very%20Supernatural%20Christmas/1.png">
-                                    </img>
+                                    {% if episode.Cover %}
+                                        <img src="{{ episode.Cover }}"></img>
+                                    {% else %}
+                                        <img src="https://res.cloudinary.com/special-e/image/upload/Site%20assets/episode_placeholder.png"></img>
+                                    {% endif %}
                                     <p>Season {{ episode.Season}}, Episode {{ episode.Episode}}</p>
-                                    <h4>{{ episode.Name}}</h4>
+                                    <p class="card-name">{{ episode.Name}}</p>
                                     <p>{{ episode.Description}}</p>
                                 </div>
                             {% endif %}
