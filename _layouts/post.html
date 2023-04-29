@@ -1,73 +1,108 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}" class="no-js">
-    {% include head.html %}
-    <body class="has-push-menu">
-        {% include svg-icons.html %}
-        {% include header.html %}
-        <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
-            <article role="article" class="post-content">
-                {% include rating.html %}
+{% include head.html %}
 
-                <h1 class="post-title">{{ page.title }}</h1>
-                <p class="post-subtitle">{{ page.seasons }} seasons, {{page.years}}</p>
-                <!-- {% if page.image and paginator.activated == nil %}
-                    <img src="{{ page.image }}" alt="Featured image" class="post-cover">
-                {% endif %} -->
-                            
-                {% assign hollidays = "Christmas,Thanksgiving,Halloween,St. Valentine's Day,New Year" | split: "," %}
+<body class="has-push-menu">
+    {% include svg-icons.html %}
+    {% include header.html %}
+    <section class="post">
+        <article role="article" class="post-content">
+            <h1 class="post-main-title">{{ page.title }}</h1>
+            <p class="post-main-subtitle">A fulll list of special holiday episodes</p>
 
-                {% for holliday in hollidays %}
-                    {% assign holiday_displayed = false %}
-                    {% for episode in site.data.episodes %}
-                        {% assign series = episode.Series | strip %} 
-                        {% if series == page.title and episode.Holiday == holliday %}
-                            {% if holiday_displayed  == false %}
-                                <h2>
-                                    {{holliday}} episode list:
-                                </h2>
-                                {% assign holiday_displayed = true %}
-                            {% endif %}
-                        <p> 
-                            <b>Season {{ episode.Season}}, Episode {{ episode.Episode}}</b>
-                            <span style="color:gray"> {{ episode.Date }} </span> 
-                        </p> 
-                        <p>{{ episode.Name}}</p>
-                        {% endif %}
-                    {% endfor %}
-                {% endfor %}
-            </article>
-
-            {% if site.two_columns_layout %}
-                <aside class="see-also">
-                    <h2>{{ site.translations.text.see_also | default: "See also" }}</h2>
-                    <ul>
-                        {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" %}
-                        {% assign shuffled_array = next_posts | shuffle %}
-                        {% for post in shuffled_array limit:3 %}
-                            <li>
-                                <a href="{{ post.url | prepend: site.baseurl }}">
-                                    {% if post.optimized_image %}
-                                        <img src="{{ post.optimized_image }}">
-                                    {% elsif post.image %}
-                                        <img src="{{ post.image }}">
-                                    {% else %}
-                                        <img src="/assets/img/off.jpg">
-                                    {% endif %}
-                                    <h3>{{ post.title }}</h3>
-                                </a>
-                            </li>
+            <div class="two-columns">
+                <img class="post-cover" src="{{ page.image }}">
+                <div class="main-info">
+                    <h2 class="post-title">{{ page.title }}</h2>
+                    <p class="post-subtitle">{{ page.seasons }} seasons, {{page.years}}</p>
+                    <div class="tag-container">
+                        {% for tag in page.tags %}
+                        <span class="tag">{{ tag }}</span>
                         {% endfor %}
-                    </ul>
-                </aside>
-            {% endif %}
+                    </div>
+                    {% if page.streamings %}
+                    <h3>Where to Watch</h3>
+                    {% endif %}
 
-        </section>
+                    {% if page.video %}
+                    <iframe width="560" height="315" src="{{ page.video }}" title="{{page.title}}" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    {% endif %}
 
-        {% include subscription.html %}
-        <!-- {% include share.html %} -->
-        {% include footer.html %}
 
-        <script type="application/ld+json">
+                </div>
+            </div>
+
+            <p class="description">{{ page.description }}</p>
+            <p>{{ page.e_count }}</p>
+
+            <!-- {% include rating.html %} -->
+
+            {% assign hollidays = "Christmas,Thanksgiving,Halloween,St. Valentine's Day,New Year" | split: "," %}
+            {% for holiday in hollidays %}
+                {% assign episodes_present = false %}
+                {% for episode in site.data.episodes %}
+                    {% assign series = episode.Series | strip %}
+                    {% if episode.Holiday == holiday and series == page.title %}
+                     {% assign episodes_present = true %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if episodes_present %}
+                    <h3>
+                        {{holiday}} episodes:
+                    </h3>
+                    <div class="episodes-list">
+                        {% for episode in site.data.episodes %}
+                           {% assign series = episode.Series | strip %}
+                            {% if episode.Holiday == holiday and series == page.title %}
+                                <div class="episode-card">
+                                    <img
+                                        src="https://res.cloudinary.com/special-e/image/upload/v1682493363/Supernatural/A%20Very%20Supernatural%20Christmas/1.png">
+                                    </img>
+                                    <p>Season {{ episode.Season}}, Episode {{ episode.Episode}}</p>
+                                    <h4>{{ episode.Name}}</h4>
+                                    <p>{{ episode.Description}}</p>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+
+            <div class="see-also">
+                <h2>{{ site.translations.text.see_also | default: "See also" }}</h2>
+                <div class="episodes-list">
+                    {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" |
+                    where_exp:"post","post.path != page.path" %}
+                    {% assign shuffled_array = next_posts | shuffle %}
+                    {% for post in shuffled_array limit:3 %}
+                    <div class="episode-card">
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            {% if post.optimized_image %}
+                            <img src="{{ post.optimized_image }}">
+                            {% elsif post.image %}
+                            <img src="{{ post.image }}">
+                            {% else %}
+                            <img src="/assets/img/off.jpg">
+                            {% endif %}
+                            <h3>{{ post.title }}</h3>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    {% include subscription.html %}
+    <!-- {% include share.html %} -->
+    {% include footer.html %}
+
+    <script type="application/ld+json">
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
@@ -113,5 +148,6 @@
             "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
         }
         </script>
-    </body>
+</body>
+
 </html>

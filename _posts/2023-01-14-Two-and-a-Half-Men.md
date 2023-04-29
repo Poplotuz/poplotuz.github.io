@@ -10,4 +10,9 @@ tags:
 - x-mass
 imdb_url: https://www.imdb.com/title/tt0369179/?ref_=tt_ov_inf
 imdb_code: tt0369179
+streamings:
+    - NETFLIX
+video: https://www.youtube.com/embed/rTGQiJ6sAxU
+description: dsfds ds dsf dsf sfds sd fsdfsd fdsfds f dsfds fdsf dsf dsf dsfdsfdsf dsf ds fdsfsdfds fds fds fdsf sf sdfds fdsf
+e_count: Text
 ---
