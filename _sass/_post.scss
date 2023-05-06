@@ -26,9 +26,9 @@
 
     .description {
         font-weight: 600;
-        margin-bottom: rem(40px);
+        margin-bottom: rem(30px);
         margin-top: rem(30px);
-        line-height: 1.6;
+        line-height: rem(30px);
     }
     .tag-container {
         border-radius: 10px;
@@ -105,7 +105,7 @@
         padding-left: 0;
         @include media(">=sm") {
             font-size: rem(20px);
-            line-height: rem(20px);
+            line-height: rem(30px);
         }
     }
 
