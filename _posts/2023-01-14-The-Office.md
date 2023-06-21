@@ -17,6 +17,6 @@ tags:
 imdb_url: https://www.imdb.com/title/tt0386676/?ref_=nv_sr_srsg_0
 imdb_code: tt0386676
 video: 
-description: This mockumentary-style workplace sitcom follows the daily lives of the employees at a paper company in Scranton, Pennsylvania, led by the quirky and clueless boss Michael Scott.
+description: This mockumentary-style workplace sitcom follows the daily lives of the employees at a paper company led by the quirky and clueless boss Michael Scott.
 e_count: The show aired 7 Christmas episodes, 4 Halloween episodes, and 4 Valentine's Day episodes.
 ---
