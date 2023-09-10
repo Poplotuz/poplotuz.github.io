@@ -12,10 +12,9 @@ tags:
 - 80s
 - usa
 - christmas
-- halloween
 imdb_url: https://www.imdb.com/title/tt0088571/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Moonlighting
 imdb_code: tt0088571
 video: 
 description: Maddie, a former model, partners with David in a detective agency after going bankrupt. They solve cases and navigate their complicated relationship.
-e_count: 
+e_count: The show aired 2 Christmas episodes
 ---

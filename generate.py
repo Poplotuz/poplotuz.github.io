@@ -1,7 +1,7 @@
 import re
 import csv
 
-def generateFile(title, seasons, years,imdb_url, country, runtime, tags, description, video, e_count ):
+def generateFile(title, seasons, years,imdb_url, country, runtime, tags, description, e_count, video ):
   undercaseTitle = re.sub("[^a-zA-Z0-9.-]+","_", title.strip())
   undercaseTitle = re.sub("[._]$","", undercaseTitle)
   cloudinaryImage = f"https://res.cloudinary.com/special-e/c_scale,w_550,q_auto/f_auto/Series%20posters/{undercaseTitle}.png"
