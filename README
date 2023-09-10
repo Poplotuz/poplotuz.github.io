@@ -1,0 +1,8 @@
+## Generate pages out of csv 
+
+```python generate.py```
+
+
+## Build project
+
+```gulp build```
